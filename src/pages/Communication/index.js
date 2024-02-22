@@ -10,6 +10,10 @@ const Communication = () => {
         <FlexBox vehicle={vehicle}/>
         <ScrollView horizontal style={{height:'auto',marginTop:20, backgroundColor:'#f2f2f2', flexDirection:'row'}}>
             <Styling onButtonPress={() => setVehicle(vehicle+1)}/> 
+            <Styling onButtonPress={() => setVehicle(vehicle+1)}/> 
+            <Styling onButtonPress={() => setVehicle(vehicle+1)}/> 
+            <Styling onButtonPress={() => setVehicle(vehicle+1)}/> 
+            <Styling onButtonPress={() => setVehicle(vehicle+1)}/> 
             {/* props bisa dalam bentuk function
                 jadi dia set state di sini terus trigger nya di dalam komponen STyling
             */}
